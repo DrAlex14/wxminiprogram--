@@ -1,0 +1,20 @@
+@import "styles/fontIcon.wxss";
+
+/* 微信小程序中不支持通配符 '*' */
+page,view,text,swiper,swiper-item,image,navigator{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 定义主题颜色 */
+page{
+  --themeColor: #eb4450;
+  font-size:28rpx;
+}
+
+/* 移动端一般图片宽度100% */
+image{
+  width: 100%;
+}
+
